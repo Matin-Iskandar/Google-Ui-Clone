@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* SVG */
+
+.menu-icon,
+.vs-icon,
+.s-icon {
+    width: 24px;
+}
+.logo {
+   width: 272px;
+   height: 92px;
+} 
+
+nav {
+    display: flex;
+    background:white;
+     justify-content: flex-end;
+     padding: 6px;
+     align-items: center;
+}
+nav a {
+    padding: 5px 7px ;
+    color: #000;
+
+}
+/* descendant selector */
+nav button {
+background-color: #1a73e8;
+padding: 7px 12px;
+border: 1px solid transparent;
+color: #fff;
+cursor: pointer;
+}
+section {
+    background-color:white;
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+section.logo {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.s-box{
+    background-color:white;
+    width: 600px;
+    position: relative;}
+
+
+.s-box .s-input {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 25px;
+}
+
+.lang{
+    align-items: center;
+    justify-content: center;
+}
+
+.s-icon{
+position: absolute;
+top: 13px;
+left: 14px;
+opacity: .5;
+}
+.s-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vs-icon{
+    position: absolute;
+    top: 13px;
+    right: 14px;
+}
+
+footer {background-color:  #70757a;}
